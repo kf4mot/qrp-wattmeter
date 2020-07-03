@@ -1,11 +1,12 @@
 # HF qrp directional wattmeter
 A compact directional wattmeter for portable operation. Forward and reflected power is shown simultaneously for easy antenna tuning.
-Power sensing is done with a tandem match wound on a BN43-202 core. The microcontroller is a ATmega32u4.
+Power sensing is done with a tandem match wound on a BN43-202 core. The microcontroller is a ATmega32u4 with USB interface for firmware uploading and serial data out.
+Power is indicated with 2 LED bargraphs for forward and reflected power.
 
 **Things worth knowing**
 
-1. Schematic and BOM show The Qorvo TQP369182 as the MMIC. TQP369180 was actually used on the first board. The extra gain of the 182 seems unnecessary when driven with a 5V square wave and it may cause oscillation based on past experience. Bias resistors remain at 91Ω. Upgrade at your own risk and let me know how it goes if you try it or any other MMIC.
-1. P
+1. Schematic and BOM
+1. 
    
 Attenuator table for 1% resistors
 Attn. |R2 | R1, R3
@@ -16,9 +17,7 @@ Attn. |R2 | R1, R3
 
 [Attenuator Calc](https://www.pasternack.com/t-calculator-pi-attn.aspx)
 
-[Schematic](https://github.com/kf4mot/10mhz_distributor/blob/master/hardware/10mhz_distributor_r1.pdf)
-
-[Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)
+[Schematic](https://github.com/kf4mot/qrp-wattmeter/blob/master/hardware/qrp_wattmeter.pdf)
 
 ![Complete](https://github.com/kf4mot/10mhz_distributor/blob/master/images/finished-gpsdo.jpg "Complete")
 
@@ -27,3 +26,5 @@ Attn. |R2 | R1, R3
 ![BoardTop 3D](https://github.com/kf4mot/10mhz_distributor/blob/master/images/10mhz_distributor-3d-view.jpg "Board Top 3D")
 
 ![](https://github.com/kf4mot/10mhz_distributor/blob/master/images/scope-in-out-10mhz.jpg "Input vs. Output")
+
+[Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)
