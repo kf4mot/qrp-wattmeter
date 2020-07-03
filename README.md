@@ -5,7 +5,7 @@ Power is indicated with 2 LED bargraphs for forward and reflected power.
 
 **Things worth knowing**
 
-1. Schematic and BOM
+1. **Firmware is incomplete**. I've been able to do basic hardware checks, but actual power measurement and calibration isn't done.
 1. 
    
 Attenuator table for 1% resistors
