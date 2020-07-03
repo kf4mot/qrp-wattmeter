@@ -1,6 +1,6 @@
 # HF QRP directional wattmeter
 A compact directional wattmeter for portable operation. Forward and reflected power is shown simultaneously with 2 LED bargraphs for easy antenna tuning.
-Power sensing is done with a tandem match wound on a BN43-202 core. The microcontroller is a ATmega32u4 with USB interface for firmware uploading and serial data out.
+Power sensing is done with a tandem match wound on a BN43-202 core. The microcontroller is a ATmega32u4 with USB interface for firmware uploading and serial data out (PC logging, debugging, etc).
 
 
 **Things worth knowing**
