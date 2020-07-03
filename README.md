@@ -6,16 +6,8 @@ Power sensing is done with a tandem match wound on a BN43-202 core. The microcon
 **Things worth knowing**
 
 1. **Firmware is incomplete**. I've been able to do basic hardware checks, but actual power measurement and calibration isn't done.
-1. 
+1. Diodes D1-7 are for providing forward bias to the bridge to improve linearity and remove zero offset. 2 devices are shown in each position to give the builder the option of a PTH or SMD package.
    
-Attenuator table for 1% resistors
-Attn. |R2 | R1, R3
------------- | ------------- | ---------
-3 dB| 17.8Ω | 294Ω
-6 dB| 37.4Ω | 150Ω
-10 dB | 71.5Ω | 95.3Ω
-
-[Attenuator Calc](https://www.pasternack.com/t-calculator-pi-attn.aspx)
 
 [Schematic](https://github.com/kf4mot/qrp-wattmeter/blob/master/hardware/qrp_wattmeter.pdf)
 
