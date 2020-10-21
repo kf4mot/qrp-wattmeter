@@ -9,7 +9,7 @@ Power sensing is done with a tandem match wound on a BN43-202 core. The microcon
 1. **Firmware is incomplete**. I've been able to do basic hardware checks, but actual power measurement and calibration isn't done.
 1. Diodes D1-2, D4-5, and D6-7 are for providing forward bias to the bridge to improve linearity and remove zero offset. 2 devices are shown in each position to give the builder the option of a PTH or SMD package.
 1. Op-amps U1 and U2 have PTH and SMD package footprints.
-1. The board was designed to fit the Polycase JB-35 enclosure. **Untested** https://www.polycase.com/jb-35
+1. The board was designed to fit the Polycase JB-35 enclosure. **Untested** https://www.polycase.com/jb-35 https://github.com/kf4mot/qrp-wattmeter/blob/master/docs/14531129045666870.pdf 
 
 [Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)
 
