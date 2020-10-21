@@ -13,12 +13,10 @@ Power sensing is done with a tandem match wound on a BN43-202 core. The microcon
 
 [Schematic](https://github.com/kf4mot/qrp-wattmeter/blob/master/hardware/qrp_wattmeter.pdf)
 
-![Complete](https://github.com/kf4mot/10mhz_distributor/blob/master/images/finished-gpsdo.jpg "Complete")
+![Complete](https://github.com/kf4mot/qrp-wattmeter/blob/master/images/watt-i-know-top.jpg "Board Top")
 
-![BoardTop](https://github.com/kf4mot/10mhz_distributor/blob/master/images/board-assy-top.jpg "Board Top")
+![BoardTop](https://github.com/kf4mot/qrp-wattmeter/blob/master/images/watt-i-know-btm.jpg "Board Bottom")
 
-![BoardTop 3D](https://github.com/kf4mot/10mhz_distributor/blob/master/images/10mhz_distributor-3d-view.jpg "Board Top 3D")
-
-![](https://github.com/kf4mot/10mhz_distributor/blob/master/images/scope-in-out-10mhz.jpg "Input vs. Output")
+![BoardTop 3D](https://github.com/kf4mot/qrp-wattmeter/blob/master/images/watt-i-know-front.jpg "Board Front")
 
 [Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)
