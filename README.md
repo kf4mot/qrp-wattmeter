@@ -11,7 +11,7 @@ Power sensing is done with a tandem match wound on a BN43-202 core. The microcon
 1. Op-amps U1 and U2 have PTH and SMD package footprints.
 1. The board was designed to fit the Polycase JB-35 enclosure. **Untested** https://www.polycase.com/jb-35 https://github.com/kf4mot/qrp-wattmeter/blob/master/docs/14531129045666870.pdf 
 
-[Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)(https://github.com/kf4mot/qrp-wattmeter/blob/master/License.md)
+[Licensed under CERN-OHL-S V2. Julian White, 2020](https://www.ohwr.org/project/cernohl/wikis/home)
 
 [Schematic](https://github.com/kf4mot/qrp-wattmeter/blob/master/hardware/qrp_wattmeter.pdf)
 
